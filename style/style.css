@@ -14,7 +14,8 @@ body{
     padding: 10px 20px;
     margin: 20px 0px;
     border-radius: 5px;
-    border: 0px;
+    border: none;
+    cursor: pointer;
 }
 .box-width-section{
     max-width: 1150px;
@@ -153,9 +154,34 @@ font-size: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
 }
 .ig-section .box img{
     width: 270px;
 }
 /*social media section end*/
+/*newsletter section start*/
+.newsletter-area{
+    background-image: url('../assets/newsletter-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0px;
+}
+.newsletter-area h1{
+    margin-bottom: 10px;
+}
+.newsletter-area p{
+    margin-bottom: 10px;
+}
+.newsletter-area input[type=email]{
+    width: 30%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+}
+.newsletter-area input[type=submit]{
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
