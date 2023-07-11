@@ -140,3 +140,22 @@ font-size: 50px;
     font-weight: bolder;
 }
 /*hot-deal section end*/
+/*social media section start*/
+.social-media-area{
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+.social-media-area h1{
+    padding-bottom: 30px;
+}
+.ig-section{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.ig-section .box img{
+    width: 270px;
+}
+/*social media section end*/
