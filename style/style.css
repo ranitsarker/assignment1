@@ -123,3 +123,20 @@ font-size: 50px;
 
 }
 /*delivery support section end*/
+/*hot-deal section*/
+.hot-deal{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fef6f8;
+    align-items: center;
+    text-align: center;
+}
+.hot-deal h1{
+    margin-bottom: 10px;
+}
+.hot-deal-content span{
+    color: red;
+    font-weight: bolder;
+}
+/*hot-deal section end*/
