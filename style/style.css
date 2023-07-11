@@ -143,14 +143,19 @@ font-size: 50px;
 /*hot-deal section end*/
 /*social media section start*/
 .social-media-area{
-    text-align: center;
-    margin: 100px 0px 0px 0px;
+    margin: 100px 0px;
 }
-.social-media-area h1{
+.social-media-content{
+    text-align: center;
+}
+.social-media-content h1{
     padding-bottom: 30px;
 }
+.social-media-content p{
+    padding-bottom: 30px;
+}
+
 .ig-section{
-    padding: 50px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -185,3 +190,23 @@ font-size: 50px;
     cursor: pointer;
 
 }
+/*newsletter section end*/
+/*footer start*/
+footer h1>span{
+    color: #E55473;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #111010;
+    color: #fff;
+    margin-top: 100px;
+}
+footer a{
+    color: #E55473;  
+}
+footer h1{
+    padding-bottom: 10px;
+}
+/*footer end */
